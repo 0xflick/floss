@@ -1,0 +1,14 @@
+[package]
+name = "floss"
+version = "0.1.0"
+authors = ["Alexander Flick"]
+edition = "2018"
+description = "A RISC-V OS in Rust"
+readme = "README.md"
+repository = "https://github.com/alexflk/floss/"
+license = "MIT"
+
+[lib]
+crate-type = ["staticlib"]
+
+[dependencies]
